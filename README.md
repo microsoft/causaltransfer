@@ -16,7 +16,9 @@ As the maintainer of this project, please make a few updates:
  
 To run counterfactual augmentation on the evaluation datasets from the paper, please first clone this repository. Then use the command
 
-```./code/run_all.sh $SCRIPT_DIRECTORY```
+```
+./code/run_all.sh $SCRIPT_DIRECTORY
+```
 
 Datasets used for evaluation in the paper can be found under the `data` directory.
 
