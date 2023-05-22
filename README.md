@@ -1,4 +1,4 @@
-# Project
+<!-- # Project
 
 > This repo has been populated by an initial template to help get you started. Please
 > make sure to update the content to build a great experience for community-building.
@@ -8,7 +8,17 @@ As the maintainer of this project, please make a few updates:
 - Improving this README.MD file to provide a great experience
 - Updating SUPPORT.MD with content about this project's support experience
 - Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+- Remove this section from the README -->
+
+# Project
+
+ Counterfactual augmentation (CA) is a method for correcting presentation bias in machine learning systems that learn from user feedback. CA generates counterfactuals according to the causal mechanism behind the missing data bias, which it then uses to supplement data in downstream training tasks. For more information, please see our paper.
+ 
+To run counterfactual augmentation on the evaluation datasets from the paper, please first clone this repository. Then use the command
+
+```./code/run_all.sh $SCRIPT_DIRECTORY```
+
+Datasets used for evaluation in the paper can be found under the `data` directory.
 
 ## Contributing
 
