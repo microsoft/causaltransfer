@@ -12,7 +12,7 @@ As the maintainer of this project, please make a few updates:
 
 # Project
 
-*Counterfactual augmentation* (CA) is a method for correcting presentation bias in machine learning systems that learn from user feedback. CA generates counterfactuals according to the causal mechanism behind the missing data bias, which it then uses to supplement data in downstream training tasks. For more information, please see our paper.
+*Counterfactual augmentation* (CA) is a method for correcting presentation bias in machine learning systems that learn from user feedback. CA generates counterfactuals according to the causal mechanism behind the missing data bias, which it then uses to supplement data in downstream training tasks. For more information, please see our paper, [Counterfactual Augmentation for Multimodal Learning Under Presentation Bias](https://arxiv.org/pdf/2305.14083.pdf).
  
 To run counterfactual augmentation on the evaluation datasets from the paper, please first clone this repository. Then use the command
 
